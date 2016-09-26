@@ -1,10 +1,9 @@
 #John Marshall
 
-def main():
-    greeting("hello")
+import helper
 
-def greeting(msg):
-    print(msg)
+def main():
+    helper.greeting("hello")
 
 if __name__ == '__main__':
     main()
