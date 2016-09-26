@@ -1,7 +1,10 @@
 #John Marshall
 
 def main():
-    print("hello")
+    greeting("hello")
+
+def greeting(msg):
+    print(msg)
 
 if __name__ == '__main__':
     main()
